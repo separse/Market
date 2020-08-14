@@ -1,0 +1,7 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of marketData">
+    <button class="btn btn-success" (click)="addCollection(item)">Add To Collection</button>&nbsp;
+     {{item.description}}
+     <span class="badge badge-secondary" style="float: right;">{{item.type}}</span>
+    </li>
+</ul>

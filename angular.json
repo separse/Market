@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "market-app"
+    }
+  },
+  "defaultProject": "market-app",
+  "cli": {
+    "analytics": false
+  }
 }

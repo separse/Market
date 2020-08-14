@@ -1,0 +1,7 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of collectedData">
+    <button class="btn btn-warning" (click)="removeCollection(item)">Remove from Collection</button>&nbsp;
+     {{item.description}}
+     <span class="badge badge-secondary" style="float: right;">{{item.type}}</span>
+    </li>
+</ul>
